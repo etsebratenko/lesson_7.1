@@ -8,15 +8,15 @@
     text-align: center;
     margin: 15px;
   }
-  
+ 
   .card {
     border: 1px solid;
     padding: 10px;
     min-height: 30vh;
-    width: calc(100%/3 - 1em);
+    width: calc(33.3333% - 1em);
     height: 400px;
     display: inline-block;
-    margin: 0em 1em 1em 0em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
     background-color: rgb(232, 245, 249);
     float: left;
   }
@@ -37,6 +37,4 @@
   
   .content {
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
   }
