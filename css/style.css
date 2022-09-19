@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   img {
     width: 230px;
     height: 230px;
@@ -10,14 +10,14 @@
   }
   
   .card {
-    width: 30%;
-    height: 400px;
-    background-color: rgb(232, 245, 249);
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
     border: 1px solid;
+    padding: 10px;
+    min-height: 30vh;
+    width: calc(100%/3 - 1em);
+    height: 400px;
+    display: inline-block;
+    margin: 0em 1em 1em 0em;
+    background-color: rgb(232, 245, 249);
     float: left;
   }
   
@@ -32,10 +32,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
     text-align: center;
-    margin: 2em;
+    margin: 1em;
   }
   
   .content {
     text-align: center;
-    margin-left: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
   }
